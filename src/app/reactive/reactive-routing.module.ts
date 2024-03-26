@@ -7,7 +7,6 @@ import { SwitchesPageComponent } from './pages/switches-page/switches-page.compo
 const routes: Routes = [
   {
     path: '',
-    component: BasicPageComponent,
     children: [
       {
         path: 'basic',
